@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Vector_1 = require("./Vector");
+console.log("Vectores");
+console.log("_____________________");
+var v1 = new Vector_1.Vector(10, 10);
+var v2 = new Vector_1.Vector(10, 10);
+v1.print();
+v2.print();
+console.log(v1.add(v2));
